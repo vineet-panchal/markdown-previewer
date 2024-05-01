@@ -1,0 +1,38 @@
+* {
+  margin: 20;
+  padding: 0;
+}
+
+/* body {
+  text-align: center;
+} */
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: bisque;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.editor-container, .preview-container {
+  height: 80vh;
+  display: inline-block;
+}
+
+.editor-container {
+  float: left;
+  color: black;
+  /* background-color: bisque; */
+  width: 40%;
+  
+}
+
+#editor {
+  height: 100%;
+  width: 100%;
+}
+.preview-container {
+  float: right;
+  width: 55%;
+  padding-left: 20px;
+  overflow: auto;
+  border-radius: 20px;
+}
